@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!--TODO : Vista Menú lateral -->
+        <item
+            android:id="@+id/nav_Listas"
+            android:icon="@drawable/ic_lista"
+            android:title="Mis Listas" />
+        <item
+            android:id="@+id/nav_tiendas"
+            android:icon="@drawable/ic_tiendas"
+            android:title="Mis Tiendas" />
+        <item
+            android:id="@+id/nav_articulos"
+            android:icon="@drawable/ic_articulo"
+            android:title="Administrar Productos" />
+
+    </group>
+
+
+
+</menu>
